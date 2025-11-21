@@ -16,7 +16,7 @@
 
 body {
     color: var(--white);
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     background-color: var(--grey-900);
     display: flex;
     min-height: 100vh;
@@ -32,13 +32,13 @@ main {
     border-radius: 12px;
     text-align: center;
 
-    width: 40%;
-    max-width: 21.9rem;
+    width: 50%;
+    max-width: 23rem;
 }
 
 img {
-    width: 90px;
-    height: 90px;
+    width: 5.6rem;
+    height: 5.6rem;
     border-radius: 50%;
     margin-block-end: 1rem;
     
@@ -82,11 +82,3 @@ ul li:hover {
     color: var(--grey-700);
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
