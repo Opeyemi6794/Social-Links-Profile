@@ -15,7 +15,7 @@
 
 body {
     color: var(--white);
-    font-size: 14px;
+    font-size: 0.9;
     background-color: var(--grey-900);
     display: flex;
     min-height: 100vh;
