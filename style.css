@@ -32,8 +32,7 @@ main {
     border-radius: 12px;
     text-align: center;
 
-    width: 50%;
-    max-width: 23rem;
+    width: min(90%, 23rem);
 }
 
 img {
@@ -80,5 +79,10 @@ ul li {
 ul li:hover {
     background-color: var(--green);
     color: var(--grey-700);
+}
+
+li a {
+    text-decoration: none;
+    color: var(--white);
 }
 
